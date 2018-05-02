@@ -1,4 +1,4 @@
-import {Component, OnInit} from '@angular/core';
+import {Component, EventEmitter, OnInit} from '@angular/core';
 import {Video} from '../model/video';
 
 @Component({
@@ -41,10 +41,17 @@ export class VideoCenterComponent implements OnInit {
         }
     ];
 
+    selectedVideo: Video;
+
     constructor() {
     }
 
     ngOnInit() {
+    }
+
+    onSelectVideo(video: any) {
+        this.selectedVideo = video;
+        console.log(this.selectedVideo);
     }
 
 }
