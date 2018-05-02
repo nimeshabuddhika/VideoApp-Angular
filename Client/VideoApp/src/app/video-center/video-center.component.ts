@@ -52,4 +52,16 @@ export class VideoCenterComponent implements OnInit {
                 this.selectedVideo = null;
             });
     }
+
+    onDeleteVideo(video: any) {
+        this._videoService.deleteVideo(video)
+            .subscribe(res => {
+                for (let i = 0; i < this.videos.length; i++) {
+                    if (this.videos[i]._id === video._id) {
+                        this.videos.splice(i, 1);
+                    }
+                }
+                this.selectedVideo = null;
+            });
+    }
 }

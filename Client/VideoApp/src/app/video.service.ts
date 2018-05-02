@@ -34,4 +34,13 @@ export class VideoService {
         return this.http.put<Video>(this.__url, JSON.stringify(video), httpOptions);
     }
 
+    deleteVideo(video: Video) {
+        const httpOptions = {
+            headers: new HttpHeaders({
+                'Content-Type': 'application/json',
+            })
+        };
+        return this.http.delete<Video>(this.__url + '/' + video._id, httpOptions);
+    }
+
 }
