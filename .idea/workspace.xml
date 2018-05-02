@@ -2,12 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dcd19d96-95c8-4608-9c88-7ad79b85d842" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Client/VideoApp/src/app/app.module.ts" afterPath="$PROJECT_DIR$/Client/VideoApp/src/app/app.module.ts" />
       <change beforePath="$PROJECT_DIR$/Client/VideoApp/src/app/video-center/video-center.component.html" afterPath="$PROJECT_DIR$/Client/VideoApp/src/app/video-center/video-center.component.html" />
+      <change beforePath="$PROJECT_DIR$/Client/VideoApp/src/app/video-center/video-center.component.ts" afterPath="$PROJECT_DIR$/Client/VideoApp/src/app/video-center/video-center.component.ts" />
+      <change beforePath="$PROJECT_DIR$/Client/VideoApp/src/app/video-detail/video-detail.component.html" afterPath="$PROJECT_DIR$/Client/VideoApp/src/app/video-detail/video-detail.component.html" />
+      <change beforePath="$PROJECT_DIR$/Client/VideoApp/src/app/video-detail/video-detail.component.ts" afterPath="$PROJECT_DIR$/Client/VideoApp/src/app/video-detail/video-detail.component.ts" />
+      <change beforePath="$PROJECT_DIR$/Client/VideoApp/src/app/video-list/video-list.component.html" afterPath="$PROJECT_DIR$/Client/VideoApp/src/app/video-list/video-list.component.html" />
       <change beforePath="$PROJECT_DIR$/Client/VideoApp/src/app/video.service.ts" afterPath="$PROJECT_DIR$/Client/VideoApp/src/app/video.service.ts" />
-      <change beforePath="$PROJECT_DIR$/Client/VideoApp/src/styles.css" afterPath="$PROJECT_DIR$/Client/VideoApp/src/styles.css" />
+      <change beforePath="$PROJECT_DIR$/Server/server.js" afterPath="$PROJECT_DIR$/Server/server.js" />
+      <change beforePath="$PROJECT_DIR$/Server/server/controllers/video.controller.js" afterPath="$PROJECT_DIR$/Server/server/controllers/video.controller.js" />
+      <change beforePath="$PROJECT_DIR$/Server/server/routes/api.js" afterPath="$PROJECT_DIR$/Server/server/routes/api.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,53 +22,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="safe.pipe.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Client/VideoApp/src/app/safe.pipe.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="4" column="14" lean-forward="false" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
-              <folding>
-                <element signature="e#0#50#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.module.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Client/VideoApp/src/app/app.module.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Client/VideoApp/src/styles.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="video-center.component.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Client/VideoApp/src/app/video-center/video-center.component.html">
+      <file leaf-file-name="video-detail.component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Client/VideoApp/src/app/video-detail/video-detail.component.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="288">
-              <caret line="16" column="44" lean-forward="false" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
+              <caret line="12" column="46" lean-forward="false" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="46" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="video.service.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Client/VideoApp/src/app/video.service.ts">
+      <file leaf-file-name="video-detail.component.ts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Client/VideoApp/src/app/video-detail/video-detail.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="23" lean-forward="false" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+            <state relative-caret-position="360">
+              <caret line="15" column="19" lean-forward="true" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -100,8 +72,6 @@
         <option value="$PROJECT_DIR$/Server/server/controllers/videos.js" />
         <option value="$PROJECT_DIR$/Server/server/models/video.js" />
         <option value="$PROJECT_DIR$/Server/server/config.js" />
-        <option value="$PROJECT_DIR$/Server/server/controllers/video.controller.js" />
-        <option value="$PROJECT_DIR$/Server/server/routes/api.js" />
         <option value="$PROJECT_DIR$/Client/VideoApp/src/app/app-routing.module.ts" />
         <option value="$PROJECT_DIR$/Client/VideoApp/package-lock.json" />
         <option value="$PROJECT_DIR$/Client/VideoApp/.angular-cli.json" />
@@ -109,18 +79,20 @@
         <option value="$PROJECT_DIR$/Client/VideoApp/src/app/app.component.html" />
         <option value="$PROJECT_DIR$/Client/VideoApp/src/app/home/home.component.html" />
         <option value="$PROJECT_DIR$/Client/VideoApp/src/app/video.ts" />
-        <option value="$PROJECT_DIR$/Client/VideoApp/src/app/video-list/video-list.component.html" />
         <option value="$PROJECT_DIR$/Client/VideoApp/src/app/video-list/video-list.component.ts" />
         <option value="$PROJECT_DIR$/Client/VideoApp/src/app/app.module.ts" />
         <option value="$PROJECT_DIR$/Client/VideoApp/src/app/model/video.ts" />
-        <option value="$PROJECT_DIR$/Client/VideoApp/src/app/video-detail/video-detail.component.ts" />
-        <option value="$PROJECT_DIR$/Client/VideoApp/src/app/video-center/video-center.component.ts" />
-        <option value="$PROJECT_DIR$/Server/server.js" />
         <option value="$PROJECT_DIR$/Client/VideoApp/src/app/safe.pipe.ts" />
-        <option value="$PROJECT_DIR$/Client/VideoApp/src/app/video-detail/video-detail.component.html" />
-        <option value="$PROJECT_DIR$/Client/VideoApp/src/app/video.service.ts" />
         <option value="$PROJECT_DIR$/Client/VideoApp/src/styles.css" />
+        <option value="$PROJECT_DIR$/Server/server.js" />
         <option value="$PROJECT_DIR$/Client/VideoApp/src/app/video-center/video-center.component.html" />
+        <option value="$PROJECT_DIR$/Client/VideoApp/src/app/video-list/video-list.component.html" />
+        <option value="$PROJECT_DIR$/Server/server/controllers/video.controller.js" />
+        <option value="$PROJECT_DIR$/Server/server/routes/api.js" />
+        <option value="$PROJECT_DIR$/Client/VideoApp/src/app/video.service.ts" />
+        <option value="$PROJECT_DIR$/Client/VideoApp/src/app/video-center/video-center.component.ts" />
+        <option value="$PROJECT_DIR$/Client/VideoApp/src/app/video-detail/video-detail.component.html" />
+        <option value="$PROJECT_DIR$/Client/VideoApp/src/app/video-detail/video-detail.component.ts" />
       </list>
     </option>
   </component>
@@ -240,7 +212,36 @@
             <path>
               <item name="VideoApp" type="b2602c69:ProjectViewProjectNode" />
               <item name="VideoApp" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Client" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="VideoApp" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="video-list" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="VideoApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VideoApp" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Server" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="VideoApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VideoApp" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Server" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="server" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="VideoApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VideoApp" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Server" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="server" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="controllers" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="VideoApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VideoApp" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Server" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="server" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="routes" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -252,7 +253,7 @@
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Fitsixes" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Server/server.js" />
     <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="node.js.path.for.package.tslint" value="project" />
@@ -283,6 +284,9 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="NodeJS" type="NodeJSConfigurationType" factoryName="Node.js" path-to-js-file="server.js" working-dir="$PROJECT_DIR$/Server" />
+  </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
@@ -299,7 +303,7 @@
       <workItem from="1525201374372" duration="9104000" />
       <workItem from="1525245521618" duration="3157000" />
       <workItem from="1525248692100" duration="688000" />
-      <workItem from="1525249576245" duration="14852000" />
+      <workItem from="1525249576245" duration="23200000" />
     </task>
     <task id="LOCAL-00001" summary="bootstrap added">
       <created>1525246551417</created>
@@ -315,11 +319,18 @@
       <option name="project" value="LOCAL" />
       <updated>1525247450880</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="changers">
+      <created>1525271329884</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1525271329884</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27801000" />
+    <option name="totallyTimeSpent" value="36149000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1911" y="-9" width="1938" height="1048" extended-state="6" />
@@ -336,7 +347,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3990878" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -359,10 +370,13 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="bootstrap added" />
-    <option name="LAST_COMMIT_MESSAGE" value="bootstrap added" />
+    <MESSAGE value="changers" />
+    <option name="LAST_COMMIT_MESSAGE" value="changers" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -514,13 +528,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Client/VideoApp/dist/index.html" />
-    <entry file="file://$PROJECT_DIR$/Server/server/routes/api.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="34" column="3" lean-forward="false" selection-start-line="34" selection-start-column="3" selection-end-line="34" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Server/dist/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
@@ -601,74 +608,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Client/VideoApp/src/app/video-list/video-list.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="26" lean-forward="false" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#62#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Client/VideoApp/src/app/video-list/video-list.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Client/VideoApp/tslint.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Server/server/controllers/video.controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="80" column="19" lean-forward="false" selection-start-line="80" selection-start-column="19" selection-end-line="80" selection-end-column="19" />
-          <folding>
-            <marker date="1525207741081" expanded="true" signature="195:300" ph="{...}" />
-            <marker date="1525207741081" expanded="true" signature="210:242" ph="{...}" />
-            <marker date="1525207741081" expanded="true" signature="248:265" ph="{...}" />
-            <marker date="1525207741081" expanded="true" signature="375:579" ph="{...}" />
-            <marker date="1525207741081" expanded="true" signature="427:550" ph="{...}" />
-            <marker date="1525207741081" expanded="true" signature="450:503" ph="{...}" />
-            <marker date="1525207741081" expanded="true" signature="509:550" ph="{...}" />
-            <marker date="1525207741081" expanded="true" signature="632:939" ph="{...}" />
-            <marker date="1525207741081" expanded="true" signature="688:869" ph="{...}" />
-            <marker date="1525207741081" expanded="true" signature="711:826" ph="{...}" />
-            <marker date="1525207741081" expanded="true" signature="832:857" ph="{...}" />
-            <marker date="1525207741081" expanded="true" signature="989:1457" ph="{...}" />
-            <marker date="1525207741081" expanded="true" signature="1163:1300" ph="{...}" />
-            <marker date="1525207741081" expanded="true" signature="1210:1299" ph="{&quot;desc&quot;: 'Error inserting video'...}" />
-            <marker date="1525207741081" expanded="true" signature="1315:1447" ph="{...}" />
-            <marker date="1525207741081" expanded="true" signature="1345:1435" ph="{&quot;desc&quot;: &quot;Successfully added&quot;...}" />
-            <marker date="1525207741081" expanded="true" signature="1509:2128" ph="{...}" />
-            <marker date="1525207741081" expanded="true" signature="1560:1715" ph="{...}" />
-            <marker date="1525207741081" expanded="true" signature="1580:1705" ph="{&quot;title&quot;: req.body.title...}" />
-            <marker date="1525207741081" expanded="true" signature="1725:1758" ph="{...}" />
-            <marker date="1525207741081" expanded="true" signature="1785:1941" ph="{...}" />
-            <marker date="1525207741081" expanded="true" signature="1840:1940" ph="{&quot;desc&quot;: &quot;Error updating video&quot;...}" />
-            <marker date="1525207741081" expanded="true" signature="1960:2114" ph="{...}" />
-            <marker date="1525207741081" expanded="true" signature="1994:2098" ph="{&quot;desc&quot;: &quot;Successfully updated&quot;...}" />
-            <marker date="1525207741081" expanded="true" signature="2180:2523" ph="{...}" />
-            <marker date="1525207741081" expanded="true" signature="2229:2365" ph="{...}" />
-            <marker date="1525207741081" expanded="true" signature="2275:2364" ph="{&quot;desc&quot;: &quot;Error deleting video&quot;...}" />
-            <marker date="1525207741081" expanded="true" signature="2379:2513" ph="{...}" />
-            <marker date="1525207741081" expanded="true" signature="2409:2502" ph="{&quot;desc&quot;: &quot;Successfully deleted&quot;...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Client/VideoApp/src/app/video-detail/video-detail.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="48" lean-forward="false" selection-start-line="0" selection-start-column="48" selection-end-line="0" selection-end-column="48" />
           <folding />
         </state>
       </provider>
@@ -681,42 +624,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Client/VideoApp/src/app/video-center/video-center.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1128">
-          <caret line="49" column="43" lean-forward="false" selection-start-line="49" selection-start-column="43" selection-end-line="49" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Server/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Client/VideoApp/src/app/app.module.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Client/VideoApp/src/app/video.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="23" lean-forward="false" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Client/VideoApp/src/app/video-detail/video-detail.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="8" selection-end-column="10" />
           <folding />
         </state>
       </provider>
@@ -726,7 +637,7 @@
         <state relative-caret-position="96">
           <caret line="4" column="14" lean-forward="false" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
           <folding>
-            <element signature="e#0#50#0" expanded="true" />
+            <element signature="e#0#50#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -739,10 +650,89 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Client/VideoApp/src/app/video-list/video-list.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="26" lean-forward="false" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Server/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Server/server/controllers/video.controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="72" column="19" lean-forward="true" selection-start-line="72" selection-start-column="19" selection-end-line="72" selection-end-column="19" />
+          <folding>
+            <marker date="1525277638350" expanded="true" signature="195:300" ph="{...}" />
+            <marker date="1525277638350" expanded="true" signature="248:265" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Server/server/routes/api.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="36" column="22" lean-forward="false" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Client/VideoApp/src/app/video-list/video-list.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" column="60" lean-forward="false" selection-start-line="1" selection-start-column="60" selection-end-line="1" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Client/VideoApp/src/app/video-center/video-center.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="36" column="31" lean-forward="false" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#62#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Client/VideoApp/src/app/video-center/video-center.component.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-288">
+          <caret line="3" column="24" lean-forward="false" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Client/VideoApp/src/app/video.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="27" column="4" lean-forward="false" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Client/VideoApp/src/app/video-detail/video-detail.component.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
-          <caret line="16" column="44" lean-forward="false" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
+          <caret line="12" column="46" lean-forward="false" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Client/VideoApp/src/app/video-detail/video-detail.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="15" column="19" lean-forward="true" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
           <folding />
         </state>
       </provider>

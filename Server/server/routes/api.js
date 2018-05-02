@@ -26,7 +26,7 @@ router.post('/videos', (req, res) => {
     });
 });
 
-router.put('/video', (req, res) => {
+router.put('/videos', (req, res) => {
 
     videoController.updateVideo(req, (result) => {
         res.json(result);
@@ -34,7 +34,7 @@ router.put('/video', (req, res) => {
 
 });
 
-router.delete('/video/:id', (req, res) => {
+router.delete('/videos/:id', (req, res) => {
 
     videoController.deleteVideo(req.params.id, (result) => {
         res.json(result);

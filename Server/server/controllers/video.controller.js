@@ -48,10 +48,7 @@ controller.addVideo = function (req, callback) {
                 error: err
             });
         else {
-            return callback({
-                desc: "Successfully added",
-                result: result
-            });
+            return callback(result);
         }
     });
 }
@@ -75,25 +72,22 @@ controller.updateVideo = function (req, callback) {
                     error: err
                 });
             else {
-                return callback({
-                    desc: "Successfully updated",
-                    result: result
-                });
+                return callback(result);
             }
         });
 };
 
 controller.deleteVideo = function (id, callback) {
 
-    Video.findByIdAndRemove(id,(err,result) =>{
-        if(err)
+    Video.findByIdAndRemove(id, (err, result) => {
+        if (err)
             return callback({
-                desc :"Error deleting video",
-                error : err
+                desc: "Error deleting video",
+                error: err
             });
-        else{
+        else {
             return callback({
-                desc : "Successfully deleted",
+                desc: "Successfully deleted",
                 result: result
             })
         }

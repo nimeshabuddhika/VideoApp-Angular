@@ -1,7 +1,7 @@
 import {Injectable} from '@angular/core';
 import {Video} from './model/video';
 import {Observable} from 'rxjs/Observable';
-import {HttpClient} from '@angular/common/http';
+import {HttpClient, HttpHeaders} from '@angular/common/http';
 
 
 @Injectable()
@@ -17,7 +17,21 @@ export class VideoService {
     }
 
     addVideo(video: Video) {
-        return this.http.post(this.__url, JSON.stringify(video));
+        const httpOptions = {
+            headers: new HttpHeaders({
+                'Content-Type': 'application/json',
+            })
+        };
+        return this.http.post<Video>(this.__url, JSON.stringify(video), httpOptions);
+    }
+
+    updateVideo(video: Video) {
+        const httpOptions = {
+            headers: new HttpHeaders({
+                'Content-Type': 'application/json',
+            })
+        };
+        return this.http.put<Video>(this.__url, JSON.stringify(video), httpOptions);
     }
 
 }

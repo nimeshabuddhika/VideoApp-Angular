@@ -1,6 +1,6 @@
 import {Component, EventEmitter, OnInit} from '@angular/core';
 import {Video} from '../model/video';
-import {VideoService} from "../video.service";
+import {VideoService} from '../video.service';
 
 @Component({
     selector: 'app-video-center',
@@ -15,6 +15,8 @@ export class VideoCenterComponent implements OnInit {
 
     selectedVideo: Video;
 
+    hideNewVideo = false;
+
     constructor(private _videoService: VideoService) {
     }
 
@@ -24,6 +26,7 @@ export class VideoCenterComponent implements OnInit {
     }
 
     onSelectVideo(video: any) {
+        this.hideNewVideo = false;
         this.selectedVideo = video;
         console.log(this.selectedVideo);
     }
@@ -32,7 +35,13 @@ export class VideoCenterComponent implements OnInit {
     onSubmitVideo(video: Video) {
         this._videoService.addVideo(video)
             .subscribe(res => {
-                console.log(res);
+                this.videos.push(res);
+                this.selectedVideo = res;
+                this.hideNewVideo = false;
             });
+    }
+
+    newVideo() {
+        this.hideNewVideo = true;
     }
 }
