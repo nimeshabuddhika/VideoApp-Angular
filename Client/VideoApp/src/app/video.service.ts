@@ -6,7 +6,7 @@ import {HttpClient} from '@angular/common/http';
 @Injectable()
 export class VideoService {
 
-    private _getAll = 'http://localhost:3030/api/videos';
+    private _getAll = '/api/videos';
 
     constructor(private http: HttpClient) {
     }

@@ -1,11 +1,33 @@
 <section>
     <div class="row">
         <div class="col-md-9">
+            <div>
+                <h2>New Video</h2>
+                <form #form="ngForm" class="well">
+                    <div class="form-group">
+                        <label>Title</label>
+                        <input type="text" class="form-control" required name="title" ngModel placeholder="Title">
+
+                    </div>
+                    <div class="form-group">
+                        <label>Url</label>
+                        <input type="text" class="form-control" required name="url" ngModel placeholder="Url">
+
+                    </div>
+                    <div class="form-group">
+                        <label>Description</label>
+                        <input type="text" class="form-control" required name="desc" ngModel placeholder="Description">
+
+                    </div>
+                    <button type="submit" class="btn btn-success">Save</button>
+                </form>
+            </div>
             <app-video-detail *ngIf="selectedVideo" [video]="selectedVideo">
 
             </app-video-detail>
         </div>
         <div class="col-md-3">
+            <button type="button" class="btn btn-success btn-block">+ New Video</button>
             <app-video-list (SelectVideo)="onSelectVideo($event)" [videos]="videos">
 
             </app-video-list>

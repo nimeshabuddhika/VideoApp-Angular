@@ -6,3 +6,6 @@
 .nav-stacked{
     cursor: pointer;
 }
+.form-control{
+    width: 100%;
+}
