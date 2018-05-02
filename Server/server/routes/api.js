@@ -20,7 +20,7 @@ router.get('/videos/:id', (req, res) => {
     });
 });
 
-router.post('/video', (req, res) => {
+router.post('/videos', (req, res) => {
     videoController.addVideo(req, (result) => {
         res.json(result);
     });

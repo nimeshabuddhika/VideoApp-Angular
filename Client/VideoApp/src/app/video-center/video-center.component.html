@@ -3,7 +3,7 @@
         <div class="col-md-9">
             <div>
                 <h2>New Video</h2>
-                <form #form="ngForm" class="well">
+                <form #form="ngForm" (ngSubmit)="onSubmitVideo(form.value)" class="well">
                     <div class="form-group">
                         <label>Title</label>
                         <input type="text" class="form-control" required name="title" ngModel placeholder="Title">
