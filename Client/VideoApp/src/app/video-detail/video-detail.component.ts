@@ -8,10 +8,19 @@ import {Component, OnInit} from '@angular/core';
 })
 export class VideoDetailComponent implements OnInit {
 
+    editTitle = false;
+
     constructor() {
     }
 
     ngOnInit() {
     }
 
+    ngOnChanges() {
+        this.editTitle = false;
+    }
+
+    onTitleClick() {
+        this.editTitle = true;
+    }
 }

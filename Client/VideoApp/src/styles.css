@@ -3,3 +3,6 @@
 .container section{
     margin-top: 80px;
 }
+.nav-stacked{
+    cursor: pointer;
+}

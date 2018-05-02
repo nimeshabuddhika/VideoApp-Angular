@@ -1,3 +1,14 @@
-{{video.title}}
-{{video.url}}
-{{video.desc}}
+<div>
+  <form>
+    <div *ngIf="editTitle" class="form-group">
+      <input type="text" class="form-control" name="title" required placeholder="Title" [(ngModel)]="video.title">
+    </div>
+    <h3 *ngIf="!editTitle " (click)="onTitleClick()">{{video.title}}</h3>
+    <div class="form-group">
+      <input type="text" class="form-control" name="url" required placeholder="Url" [(ngModel)]="video.url">
+    </div>
+    <div class="form-group">
+      <textarea type="text" class="form-control" rows="5" name="desc" required placeholder="Description" [(ngModel)]="video.desc"></textarea>
+    </div>
+  </form>
+</div>
