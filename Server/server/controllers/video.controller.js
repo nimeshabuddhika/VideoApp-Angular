@@ -54,7 +54,7 @@ controller.addVideo = function (req, callback) {
 }
 
 controller.updateVideo = function (req, callback) {
-    Video.findByIdAndUpdate(req.body.id,
+    Video.findByIdAndUpdate(req.body._id,
         {
             $set: {
                 title: req.body.title,
