@@ -6,13 +6,13 @@ import {HttpClient} from '@angular/common/http';
 @Injectable()
 export class VideoService {
 
-    private __getAll = 'http://localhost:3030/api/videos';
+    private _getAll = 'http://localhost:3030/api/videos';
 
     constructor(private http: HttpClient) {
     }
 
     getVideos(): Observable<Video[]> {
-        return this.http.get<Video[]>(this.__getAll);
+        return this.http.get<Video[]>(this._getAll);
     }
 
 }
